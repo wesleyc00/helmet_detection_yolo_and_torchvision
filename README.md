@@ -12,3 +12,13 @@ Avaliar e comparar o desempenho quantitativo, a estabilidade entre inicializaç�
 - Treinar e avaliar os seis modelos no **Google Colab** sob cinco sementes aleatórias (`7`, `21`, `42`, `123` e `2025`), totalizando 30 execuções.
 - Mensurar métricas de detecção (*Precision*, *Recall*, *F1-score*, *mAP@0,5* e *mAP@0,5:0,95*), custo computacional, velocidade de inferência e significância estatística (ANOVA e Tukey).
 - Consolidar as matrizes de confusão das cinco sementes e realizar testes de inferência qualitativa com amostras do conjunto de dados e imagens externas.
+- 
+## Dataset, Pesos e Resultados dos Experimentos
+Devido ao tamanho dos arquivos, o conjunto de dados, os pesos treinados e as saídas completas dos experimentos são hospedados no Google Drive:
+
+- **Pasta no Google Drive:** [Acessar arquivos complementares do TCC](https://drive.google.com/drive/folders/1EdUIjR2iXzXGyCMGXUygNA17D1MnOwWQ?usp=sharing)
+
+### Conteúdo disponível
+- **Pesos treinados:** modelos gerados nas 5 sementes (`7`, `21`, `42`, `123` e `2025`) para YOLO e Torchvision.
+- **Conjunto de dados:** base estruturada com 753 imagens (*Helmet Detection – v6 Balanced dataset*).
+- **Imagens do teste de inferência qualitativa**: as seis imagens que foram utilizadas para o teste de inferência qualitativa.
